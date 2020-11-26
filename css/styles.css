@@ -1,0 +1,295 @@
+*, div {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box!important;
+}
+body {
+  font-family: 'Libre Baskerville', serif;
+    font-weight: 200;
+    line-height: 1.45;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+p {
+  margin-top: 1.45em;
+  font-size: 1.2em;   
+}
+h1, h2, h3, h4 {
+margin: 1.414em 0 0.5em;
+font-weight: inherit;
+line-height: 1.2;
+}
+h1, .h1-size {
+  margin-top: 0;
+  font-size: 3.157em;
+}
+.h2-size {
+  margin: 1.414em 0 0em;
+  font-size: 2.369rem;
+}
+.h3-size {
+  font-size: 1.777rem;
+}
+
+h2 {font-size: 2.369rem;}
+
+h3 {font-size: 1.777rem;}
+
+h4 {font-size: 1.333rem;}
+
+small, .font_small {font-size: 0.75rem;}
+a.button {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background: #f8354f;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 1em 2em;
+  text-shadow: 0 1px 0 rgba(0,0, 0, 0.5);
+  border: 1px solid #f8354f;
+  border-radius: 5px;
+  text-decoration: none;
+  display: inline-block;
+  margin: 2em 0;
+}
+#panel-top {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background: #2A64B1;
+  text-align: center;
+  padding: 10px 0;
+  color: #fff;
+  font-size: 0.75rem;
+}
+#panel-top a {    
+  color: #fff;
+}
+#panel-top p {    
+  margin-top: 0;
+}
+#intro {
+  background: #569DFE;
+/*                height: 100vh;*/
+  padding: 80px 0 50px 0;
+  color: #fff;
+}
+#intro .book {
+  width: 100%;
+/*                margin: 80px 300px 80px 0;*/
+  box-shadow: 0px 10px 30px 0 rgba(0, 0, 0, 0.5);
+}
+#intro .book-image {
+  order: 1;   
+}
+#intro .book-description {
+  order: 2;
+  margin-top: 4rem;
+}
+.category {
+  display: inline-block;
+  text-transform: uppercase;
+  margin: 0 0 50px 0; 
+}
+#reviews {
+  margin: 50px 0 80px 0;
+}
+.testimonial-text p {
+  font-size: 1.777rem;
+  text-align: center;
+  color: #666;
+}
+.testimonial-image img {
+  width: 60px;
+  height: 60px;
+  border-radius: 30px;
+  display: block;
+  margin: 30px auto 10px auto;
+}
+.testimonial-image p {
+  text-align: center;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1rem;
+  color: #888;
+}
+#about {
+  background: #f2f2f2;
+  width: 100%;
+/*
+  background: url(img/lady-in-street.jpg) no-repeat #f2f2f2;
+  background-size: 50% 100%;
+  background-position: right;
+  display: flex;
+*/
+}
+.about-text {
+  padding: 2rem 0rem 2rem 0rem;
+  width: 100%;
+}
+.about-text-holder {
+  margin-left: auto;
+/*                max-width: 500px;*/
+}
+.about-text h2.h1-size {
+  color: #333;
+  font-weight: bold;
+}
+.about-text p, .preview-text p {
+  font-size: 1.333rem;
+  color: #888;   
+}
+.preview-text p, .preview-text h2 {
+  color: #fff;   
+}
+.author-image {
+  background: url(img/lady-in-street.jpg) no-repeat;
+  background-size: cover;
+/*                min-width: 80vh;*/
+  min-height: 60vw;
+  background-position: center center;
+}
+.no-right-padding {
+  padding: 0 2rem;   
+}
+#preview {
+  background: #569DFE;
+  padding: 4rem 0;
+}
+.book-details {
+  color: #fff;
+  margin: 0rem 0 3rem 0;
+}
+.book-details p {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 0.75rem;
+  margin-top: 0;
+}
+.book-desc {
+  margin-bottom: 2rem;
+}
+.book-design img    {
+  width: 100%;   
+}
+#footer {
+  background: #2A64B1;   
+}
+#footer a.button {
+  margin-bottom: 1rem; 
+}
+#footer > div > div {
+  text-align: center;   
+}
+.sample {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  border-bottom: 1px dashed #fff;
+  text-decoration: none;
+  color: #fff;
+}
+.sample-preview {
+  padding-bottom: 2rem; 
+  text-align: center;
+}
+.row {
+  padding: 0 2rem;   
+}
+.column {
+  flex-basis: 100%;
+}
+
+
+
+@media screen and (min-width:800px) {
+  .container {
+      width: 100%;
+      max-width: 1140px;
+      margin: auto;
+  }
+  .row {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+  }
+  .space-around {
+      justify-content: space-around;
+  }
+  .space-between {
+      justify-content: space-between;
+  }
+  .align-right {
+      justify-content: flex-end;   
+  }
+  .no-right-padding {
+      padding: 0 0 0 2rem;   
+  }
+  [class*="_"] {
+      padding: 0 50px;   
+  }
+  ._50.about-image {
+      padding: 0;   
+  }
+  .full {
+      flex: 1;   
+  }
+  ._half {
+      width: 50%;   
+/*                    width: calc(50% - ( 0.5 * 30px ) );*/
+  }
+  ._25 {
+      width: 25%;   
+  }
+  ._55 {
+      width: 55%;
+  }
+  ._2 {
+      width: 20%;
+  }
+  ._75 {
+      width: 75%;
+  }
+  ._70 {
+      width: 70%;   
+  }
+  ._30 {
+      width: 30%;   
+  }
+  ._50 {
+      flex: .5;   
+  }
+  ._40 {
+      width: 40%;   
+  }
+  
+  .row + div {
+      margin: 0 20px;   
+  }
+  .author-image {
+/*                    width: 100%;*/
+      min-height: 100vh;
+  }
+  #intro .book-image {
+      order: 1;
+  }
+  #intro .book-description {
+      order: 2;
+      margin-top: 0;
+  }
+  #about .row .about-text, #about .row {
+      padding: 0;   
+  }
+  .about-text {
+      margin: 4rem 0rem 5rem 0rem;
+      width: .5;
+  }
+  .about-text-holder {
+      margin-left: auto;
+      max-width: 500px;
+      padding-right: 50px;
+      padding-left: 20px;
+      
+  }
+  .about-image._40 {
+      width: 40%;   
+  }
+  .sample-preview {
+      padding-bottom: 2rem;   
+  }
+}
