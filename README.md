@@ -1,2 +1,2 @@
 # berose
-A websiet designed and developed for a Transformation Life Coach
+A website designed and developed for a Transformation Life Coach
